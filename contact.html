@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="icon" href="logo.png">
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><a href="index.html"><img src="nav-logo.jpg" height="60px"></a></label>
+      <ul>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i>    Home</a></li>
+        <li><a href="blogs.html"><i class="fa-solid fa-blog"></i>    Blogs</a></li>
+        <li><a href="game.html"><i class="fa-solid fa-gamepad"></i>    Games</a></li>
+        <li><a href="quiz.html"><i class="fa-solid fa-circle-question"></i>    Quizzes</a></li>
+        <li><a href="products.html"><i class="fa-brands fa-product-hunt"></i>    Our Products</a></li>
+        <li><a href="donation.html"><i class="fa-solid fa-hand-holding-dollar"></i>    Donations</a></li>
+        <li><a class="active" href="contact.html"><i class="fa-solid fa-phone"></i>    Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="comtact" style="text-align: center; margin: 50px;">
+        <p class="a1">Creator: Raghav Wakhare</p>
+        <p class="a1">My another SDG 6 website: <a href="https://sdg6cleanwater.netlify.app/"> SDG 6- Clean Water And Sanitation</a></p>
+        <p class="a1">Phone: +91 9767534848</p>
+        <p class="a1">email: rwakhare08@gmail.com</p>
+        <p class="a1">Address:  Near Anand Traders, Bhusaval Road, Govt grain Godown premises, Tahasildar Quarter, Muktainagar, Dist. Jalgaon, Maharashtra, 425306</p>
+    </div>
+
+    <div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="india">India</option>
+          <option value="uk">UK</option>
+          <option value="itly">Itly</option>
+          <option value="russia">Russia</option>
+          <option value="pakistan">Pakistan</option>
+          <option value="germany">Germany</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="whole" style="display: flex; align-items: center; justify-content: center; margin-left: 900px;">  
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </div>
+  </form>
+</div>
+<footer style="text-align: center; background-color: #6DAFFE; height: 75px; align-items: center; justify-content: center; display: flex; gap: 20px;">
+  <button style="height: 30px; width: 30px; border-radius: 50%; align-items: center; justify-content: center; display: flex; background-color: #28d12a;" onclick="location.href='donation.html'"><i class="fa-solid fa-arrow-left"></i></button>
+  <p>©2024 by Raghav Wakhare | An SDG6 Website</p>
+</footer>
+  </body>
+</html>
+
